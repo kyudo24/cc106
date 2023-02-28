@@ -1,0 +1,142 @@
+.header{
+    text-align: center;
+    padding: 60px;
+    font-size: 30px;
+    background-color: bisque;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #04AA6D;
+  }
+  
+
+
+.right{
+    flex-basis: 40%;
+    text-align: center;
+    /* float: right;
+    width: 33.33%;
+    padding: 5px; */
+ }
+
+ .left{
+        float: left;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+ }
+
+ .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+h1{
+    padding-left: 30px;
+    
+}
+
+
+
+meter {
+    padding-left: 30px;
+    width: 300px;
+    height: 25px;
+   
+  
+  }
+
+ 
+
+  .skill{
+    padding-left: 30px;
+    
+  }
+
+font{
+    font-size: 25px;
+    
+}
+
+.highlight{
+    font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(97, 64, 64);
+    color: white;
+    text-align: right;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+
+.fa-facebook {
+    
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+    background: #2e70ff;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+
+  progress {
+    text-align: center;
+    padding-top: 12px;
+    width: 300px;
+    height: 40px;
+   
+  }
+  progress:after {
+    content: attr(value)'%';
+  }
+  
+  .car{
+    height: 300px;
+    width: 300px;
+  }
